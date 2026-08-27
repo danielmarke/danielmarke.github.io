@@ -24,6 +24,9 @@ button:focus-visible { outline:2px solid var(--cyan); outline-offset:2px; }
 .brand strong { font-size:15px; letter-spacing:-.035em; }
 .brand strong span { color:var(--cyan); }
 .intro { padding-top:38px; }
+.controls-hint { display:flex; flex-wrap:wrap; gap:7px; margin:-8px 0 24px; color:var(--muted); font:10px/1.4 "DM Mono",monospace; }
+.controls-hint span { padding:7px 9px; border:1px solid rgba(255,255,255,.1); border-radius:2px; background:rgba(255,255,255,.025); }
+.controls-hint strong { color:var(--cyan); font-weight:500; }
 .segmented { grid-template-columns:repeat(4,minmax(0,1fr)); }
 .segment { min-height:58px; padding:9px 7px; display:flex; align-items:center; }
 .segment strong { font-size:14px; line-height:1.08; }
@@ -38,3 +41,4 @@ button:focus-visible { outline:2px solid var(--cyan); outline-offset:2px; }
 .app-grid { margin-bottom:32px; }
 .site-footer { margin-top:0; }
 @media (max-width:780px) { .segmented { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:480px) { .controls-hint { gap:5px; margin-bottom:20px; } .controls-hint span { flex:1 1 140px; } }

@@ -4,78 +4,190 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0b1117" />
-    <meta name="description" content="Interactive 3D companion to Does Size Matter?" />
+    <meta
+      name="description"
+      content="Interactive 3D companion to Does Size Matter?"
+    />
+
     <title>Does Size Matter? · QM region viewer</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+
     <script defer src="https://3dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
     <script defer src="app.js"></script>
   </head>
+
   <body>
     <div class="page-shell">
-<header class="topbar">
-  <a class="brand" href="#top">
-    <strong><span>Does Size Matter?</span> Choosing the QM Region in QM/MM</strong>
-  </a>
-</header>
+      <header class="topbar">
+        <a class="brand" href="#top">
+          <strong>
+            <span>Does Size Matter?</span> Choosing the QM Region in QM/MM
+          </strong>
+        </a>
+      </header>
 
-<main id="top">
-  <section class="intro">
-    <h2>QM region viewer</h2>
-    <p>
-      Choose a shell and a side-chain permutation to compare them.
-    </p>
-  </section>
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <h1 id="page-title">QM region viewer</h1>
+          <p>
+            Choose a shell and a side-chain permutation to compare them.
+          </p>
+        </section>
 
-  <div class="controls-hint" aria-label="Viewer controls">
-    <span>Drag</span> to rotate
-    <span>Scroll</span> to zoom
-    <span>Pinch</span> to zoom on touch devices
-  </div>
-</main>
-      
-  </section>
+        <div class="controls-hint" aria-label="Viewer controls">
+          <span><strong>Drag</strong> to rotate</span>
+          <span><strong>Scroll</strong> to zoom</span>
+          <span><strong>Pinch</strong> to zoom on touch devices</span>
+        </div>
 
-        <section class="app-grid" aria-label="Interactive QM region viewer">
+        <section
+          class="app-grid"
+          aria-label="Interactive QM region viewer"
+        >
           <article class="viewer-card panel">
             <div class="panel-heading">
-              <div><p class="section-kicker">molecular viewer</p><h2>QM Region</h2></div>
-              <div class="viewer-actions"><button class="icon-button" id="reset-camera" title="Reset camera" aria-label="Reset camera">↺</button><button class="icon-button" id="focus-site" title="Focus structure" aria-label="Focus structure">⌖</button></div>
+              <div>
+                <p class="section-kicker">molecular viewer</p>
+                <h2>QM Region</h2>
+              </div>
+
+              <div class="viewer-actions">
+                <button
+                  class="icon-button"
+                  id="reset-camera"
+                  title="Reset camera"
+                  aria-label="Reset camera"
+                >
+                  ↺
+                </button>
+                <button
+                  class="icon-button"
+                  id="focus-site"
+                  title="Focus structure"
+                  aria-label="Focus structure"
+                >
+                  ⌖
+                </button>
+              </div>
             </div>
+
             <div class="state-tabs" role="tablist" aria-label="Reaction state">
-              <button class="state-tab active" data-state="reactant" role="tab" aria-selected="true">reactant</button>
-              <button class="state-tab" data-state="ts" role="tab" aria-selected="false">transition state</button>
-              <button class="state-tab" data-state="product" role="tab" aria-selected="false">product</button>
+              <button
+                class="state-tab active"
+                data-state="reactant"
+                role="tab"
+                aria-selected="true"
+              >
+                reactant
+              </button>
+              <button
+                class="state-tab"
+                data-state="ts"
+                role="tab"
+                aria-selected="false"
+              >
+                transition state
+              </button>
+              <button
+                class="state-tab"
+                data-state="product"
+                role="tab"
+                aria-selected="false"
+              >
+                product
+              </button>
             </div>
+
             <div class="viewer-wrap">
-              <div id="viewer" role="img" aria-label="3D molecular structure viewer"></div>
-              <div class="viewer-loading" id="viewer-loading"><span class="spinner"></span><span>Loading subset PDB…</span></div>
-              <div class="viewer-error" id="viewer-error" hidden>That subset PDB could not be loaded.</div>
+              <div
+                id="viewer"
+                role="img"
+                aria-label="3D molecular structure viewer"
+              ></div>
+              <div class="viewer-loading" id="viewer-loading">
+                <span class="spinner"></span>
+                <span>Loading subset PDB…</span>
+              </div>
+              <div class="viewer-error" id="viewer-error" hidden>
+                That subset PDB could not be loaded.
+              </div>
             </div>
           </article>
 
           <aside class="controls">
             <section class="panel control-block">
               <p class="section-kicker">01 · QM region</p>
-              <div class="segmented" role="tablist" aria-label="QM region size">
-                <button class="segment" data-radius="core" role="tab" aria-selected="false"><strong>Minimal region</strong></button>
-                <button class="segment active" data-radius="r2.5" role="tab" aria-selected="true"><strong>2.5 Å</strong></button>
-                <button class="segment" data-radius="r5" role="tab" aria-selected="false"><strong>5 Å</strong></button>
-                <button class="segment" data-radius="r7.5" role="tab" aria-selected="false"><strong>7.5 Å</strong></button>
+
+              <div
+                class="segmented"
+                role="tablist"
+                aria-label="QM region size"
+              >
+                <button
+                  class="segment"
+                  data-radius="core"
+                  role="tab"
+                  aria-selected="false"
+                >
+                  <strong>Minimal region</strong>
+                </button>
+                <button
+                  class="segment active"
+                  data-radius="r2.5"
+                  role="tab"
+                  aria-selected="true"
+                >
+                  <strong>2.5 Å</strong>
+                </button>
+                <button
+                  class="segment"
+                  data-radius="r5"
+                  role="tab"
+                  aria-selected="false"
+                >
+                  <strong>5 Å</strong>
+                </button>
+                <button
+                  class="segment"
+                  data-radius="r7.5"
+                  role="tab"
+                  aria-selected="false"
+                >
+                  <strong>7.5 Å</strong>
+                </button>
               </div>
-              <div class="loaded-file"><span>selected structure</span><strong id="region-name">Full Shell</strong></div>
+
+              <div class="loaded-file">
+                <span>selected structure</span>
+                <strong id="region-name">Full Shell</strong>
+              </div>
             </section>
 
             <section class="panel control-block permutation-block">
-              <div class="block-title"><div><p class="section-kicker">02 · side-chain permutation</p><h2>Choose a file</h2></div></div>
+              <div class="block-title">
+                <div>
+                  <p class="section-kicker">02 · side-chain permutation</p>
+                  <h2>Choose a file</h2>
+                </div>
+              </div>
+
               <div class="sidechain-list" id="sidechain-list"></div>
             </section>
           </aside>
         </section>
       </main>
-      <footer class="site-footer"><span>Does Size Matter? · Daniel Marke et al.</span><span></span></footer>
+
+      <footer class="site-footer">
+        <span>Does Size Matter? · Daniel Marke et al.</span>
+        <span>QM/MM · LsAA9A</span>
+      </footer>
     </div>
   </body>
 </html>
