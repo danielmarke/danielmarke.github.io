@@ -30,7 +30,9 @@ HETATM   28  O1  HOH A 901       0.900  -3.200   0.100  1.00 20.00           O
 END`;
 
 let manifest = null;
-const state = { radius: "core", dir: "REFERENCE_full", stateName: "reactant", showRibbon: true, pdbText: "", viewer: null, loadToken: 0 };
+// Open on the first complete shell structure. Switching shell sizes also
+// selects that shell's own Full Shell entry automatically.
+const state = { radius: "r2.5", dir: "REFERENCE_full", stateName: "reactant", showRibbon: true, pdbText: "", viewer: null, loadToken: 0 };
 const $ = (selector) => document.querySelector(selector);
 
 function setText(selector, value) { const node = $(selector); if (node) node.textContent = value; }
@@ -236,7 +238,9 @@ async function init() {
   updateRegionUI();
   document.querySelectorAll("[data-radius]").forEach((button) => button.addEventListener("click", () => {
     state.radius = button.dataset.radius;
-    const first = state.radius === "core" ? radiusStructures()[0] : (radiusStructures().find((item) => item.permutation === "000") || radiusStructures()[0]);
+    const first = state.radius === "core"
+      ? radiusStructures()[0]
+      : (radiusStructures().find((item) => item.label === "Full Shell") || radiusStructures()[0]);
     state.dir = first?.dir || state.dir;
     renderPermutations();
     updateRegionUI();

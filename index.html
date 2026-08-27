@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0b1117" />
     <meta name="description" content="Interactive 3D companion to Does Size Matter?" />
-    <title>Does Size Matter?</title>
+    <title>Does Size Matter? · QM region viewer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -22,13 +22,13 @@
       <main id="top">
         <div class="intro">
           <h1>QM region viewer</h1>
-          <p>Choose a shell and a side-chain permutation. Drag to rotate/move and pinch to zoom.</p>
+          <p>Choose a shell and a side-chain permutation to compare them. Drag to rotate and use scroll or pinch to zoom.</p>
         </div>
 
         <section class="app-grid" aria-label="Interactive QM region viewer">
           <article class="viewer-card panel">
             <div class="panel-heading">
-              <div><p class="section-kicker">molecular viewer</p><h2>QM Regions</h2></div>
+              <div><p class="section-kicker">molecular view</p><h2>Active site</h2></div>
               <div class="viewer-actions"><button class="icon-button" id="reset-camera" title="Reset camera" aria-label="Reset camera">↺</button><button class="icon-button" id="focus-site" title="Focus structure" aria-label="Focus structure">⌖</button></div>
             </div>
             <div class="state-tabs" role="tablist" aria-label="Reaction state">
@@ -47,12 +47,12 @@
             <section class="panel control-block">
               <p class="section-kicker">01 · QM region</p>
               <div class="segmented" role="tablist" aria-label="QM region size">
-                <button class="segment active" data-radius="core" role="tab" aria-selected="true"><strong>Minimal region</strong></button>
-                <button class="segment" data-radius="r2.5" role="tab" aria-selected="false"><strong>2.5 Å</strong></button>
+                <button class="segment" data-radius="core" role="tab" aria-selected="false"><strong>Minimal region</strong></button>
+                <button class="segment active" data-radius="r2.5" role="tab" aria-selected="true"><strong>2.5 Å</strong></button>
                 <button class="segment" data-radius="r5" role="tab" aria-selected="false"><strong>5 Å</strong></button>
                 <button class="segment" data-radius="r7.5" role="tab" aria-selected="false"><strong>7.5 Å</strong></button>
               </div>
-              <div class="loaded-file"><span>selected structure</span><strong id="region-name">Minimal region</strong></div>
+              <div class="loaded-file"><span>selected structure</span><strong id="region-name">Full Shell</strong></div>
             </section>
 
             <section class="panel control-block permutation-block">
@@ -62,7 +62,7 @@
           </aside>
         </section>
       </main>
-      <footer class="site-footer"><span>Does Size Matter? · Daniel Marke et al.</span><span></span></footer>
+      <footer class="site-footer"><span>Does Size Matter? · Daniel Marke et al.</span><span>QM/MM · LsAA9A</span></footer>
     </div>
   </body>
 </html>
