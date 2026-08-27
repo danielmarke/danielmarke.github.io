@@ -1,0 +1,12 @@
+{
+  "source": {
+    "pdbId": "5ACI",
+    "label": "LsAA9A · copper active site",
+    "url": "https://files.rcsb.org/download/5ACI.pdb"
+  },
+  "regions": {
+    "minimal": { "label": "minimal QM region", "atoms": 58 },
+    "complete": { "label": "5 Å cutoff shell", "atoms": 446 }
+  },
+  "notes": "This is the edit point for the final calculation set. Add a pdb path and energy value to each permutation, then wire it into app.js. The current UI uses the public 5ACI scaffold and poster-derived region sizes."
+}

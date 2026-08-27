@@ -1,0 +1,978 @@
+{
+  "source": {
+    "id": "5ACI",
+    "label": "LsAA9A · copper active site"
+  },
+  "structures": [
+    {
+      "radius": "core",
+      "dir": "REFERENCE_full",
+      "label": "Minimal region",
+      "permutation": null,
+      "classes": "none",
+      "qmAtoms": 54,
+      "charge": "+1",
+      "path": "data/structures/core/reactant/REFERENCE_full/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "REFERENCE_full",
+      "label": "Full Shell",
+      "permutation": null,
+      "classes": "reference",
+      "qmAtoms": 222,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/REFERENCE_full/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_000_core_always_only",
+      "label": "Minimal region + Water",
+      "permutation": "000",
+      "classes": "none",
+      "qmAtoms": 81,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_000_core_always_only/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_001_aro",
+      "label": "aro",
+      "permutation": "001",
+      "classes": "aromatic",
+      "qmAtoms": 96,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_001_aro/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_002_pol",
+      "label": "pol",
+      "permutation": "002",
+      "classes": "polar",
+      "qmAtoms": 89,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_002_pol/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_003_aro_pol",
+      "label": "aro + pol",
+      "permutation": "003",
+      "classes": "aromatic, polar",
+      "qmAtoms": 104,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_003_aro_pol/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_004_hyd",
+      "label": "hyd",
+      "permutation": "004",
+      "classes": "hydrophobic",
+      "qmAtoms": 150,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_004_hyd/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_005_aro_hyd",
+      "label": "aro + hyd",
+      "permutation": "005",
+      "classes": "aromatic, hydrophobic",
+      "qmAtoms": 165,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_005_aro_hyd/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_006_pol_hyd",
+      "label": "pol + hyd",
+      "permutation": "006",
+      "classes": "polar, hydrophobic",
+      "qmAtoms": 164,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_006_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_007_aro_pol_hyd",
+      "label": "aro + pol + hyd",
+      "permutation": "007",
+      "classes": "aromatic, polar, hydrophobic",
+      "qmAtoms": 179,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_007_aro_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_008_sug",
+      "label": "sug",
+      "permutation": "008",
+      "classes": "sugar",
+      "qmAtoms": 124,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_008_sug/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_009_aro_sug",
+      "label": "aro + sug",
+      "permutation": "009",
+      "classes": "aromatic, sugar",
+      "qmAtoms": 139,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_009_aro_sug/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_010_pol_sug",
+      "label": "pol + sug",
+      "permutation": "010",
+      "classes": "polar, sugar",
+      "qmAtoms": 132,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_010_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_011_aro_pol_sug",
+      "label": "aro + pol + sug",
+      "permutation": "011",
+      "classes": "aromatic, polar, sugar",
+      "qmAtoms": 147,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_011_aro_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_012_hyd_sug",
+      "label": "hyd + sug",
+      "permutation": "012",
+      "classes": "hydrophobic, sugar",
+      "qmAtoms": 193,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_012_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_013_aro_hyd_sug",
+      "label": "aro + hyd + sug",
+      "permutation": "013",
+      "classes": "aromatic, hydrophobic, sugar",
+      "qmAtoms": 208,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_013_aro_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r2.5",
+      "dir": "perm_014_pol_hyd_sug",
+      "label": "pol + hyd + sug",
+      "permutation": "014",
+      "classes": "polar, hydrophobic, sugar",
+      "qmAtoms": 207,
+      "charge": "+1",
+      "path": "data/structures/r2.5/reactant/perm_014_pol_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "REFERENCE_full",
+      "label": "Full Shell",
+      "permutation": null,
+      "classes": "reference",
+      "qmAtoms": 431,
+      "charge": "+2",
+      "path": "data/structures/r5/reactant/REFERENCE_full/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_000_core_always_only",
+      "label": "2.5 Å shell + Water",
+      "permutation": "000",
+      "classes": "none",
+      "qmAtoms": 309,
+      "charge": "+1",
+      "path": "data/structures/r5/reactant/perm_000_core_always_only/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_001_pos",
+      "label": "pos",
+      "permutation": "001",
+      "classes": "charged_pos",
+      "qmAtoms": 321,
+      "charge": "+2",
+      "path": "data/structures/r5/reactant/perm_001_pos/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_002_aro",
+      "label": "aro",
+      "permutation": "002",
+      "classes": "aromatic",
+      "qmAtoms": 320,
+      "charge": "+1",
+      "path": "data/structures/r5/reactant/perm_002_aro/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_003_pos_aro",
+      "label": "pos + aro",
+      "permutation": "003",
+      "classes": "charged_pos, aromatic",
+      "qmAtoms": 332,
+      "charge": "+2",
+      "path": "data/structures/r5/reactant/perm_003_pos_aro/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_004_pol",
+      "label": "pol",
+      "permutation": "004",
+      "classes": "polar",
+      "qmAtoms": 387,
+      "charge": "+1",
+      "path": "data/structures/r5/reactant/perm_004_pol/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_005_pos_pol",
+      "label": "pos + pol",
+      "permutation": "005",
+      "classes": "charged_pos, polar",
+      "qmAtoms": 399,
+      "charge": "+2",
+      "path": "data/structures/r5/reactant/perm_005_pos_pol/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_006_aro_pol",
+      "label": "aro + pol",
+      "permutation": "006",
+      "classes": "aromatic, polar",
+      "qmAtoms": 398,
+      "charge": "+1",
+      "path": "data/structures/r5/reactant/perm_006_aro_pol/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_007_pos_aro_pol",
+      "label": "pos + aro + pol",
+      "permutation": "007",
+      "classes": "charged_pos, aromatic, polar",
+      "qmAtoms": 410,
+      "charge": "+2",
+      "path": "data/structures/r5/reactant/perm_007_pos_aro_pol/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_008_hyd",
+      "label": "hyd",
+      "permutation": "008",
+      "classes": "hydrophobic",
+      "qmAtoms": 330,
+      "charge": "+1",
+      "path": "data/structures/r5/reactant/perm_008_hyd/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_009_pos_hyd",
+      "label": "pos + hyd",
+      "permutation": "009",
+      "classes": "charged_pos, hydrophobic",
+      "qmAtoms": 342,
+      "charge": "+2",
+      "path": "data/structures/r5/reactant/perm_009_pos_hyd/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_010_aro_hyd",
+      "label": "aro + hyd",
+      "permutation": "010",
+      "classes": "aromatic, hydrophobic",
+      "qmAtoms": 341,
+      "charge": "+1",
+      "path": "data/structures/r5/reactant/perm_010_aro_hyd/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_011_pos_aro_hyd",
+      "label": "pos + aro + hyd",
+      "permutation": "011",
+      "classes": "charged_pos, aromatic, hydrophobic",
+      "qmAtoms": 353,
+      "charge": "+2",
+      "path": "data/structures/r5/reactant/perm_011_pos_aro_hyd/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_012_pol_hyd",
+      "label": "pol + hyd",
+      "permutation": "012",
+      "classes": "polar, hydrophobic",
+      "qmAtoms": 408,
+      "charge": "+1",
+      "path": "data/structures/r5/reactant/perm_012_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_013_pos_pol_hyd",
+      "label": "pos + pol + hyd",
+      "permutation": "013",
+      "classes": "charged_pos, polar, hydrophobic",
+      "qmAtoms": 420,
+      "charge": "+2",
+      "path": "data/structures/r5/reactant/perm_013_pos_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r5",
+      "dir": "perm_014_aro_pol_hyd",
+      "label": "aro + pol + hyd",
+      "permutation": "014",
+      "classes": "aromatic, polar, hydrophobic",
+      "qmAtoms": 419,
+      "charge": "+1",
+      "path": "data/structures/r5/reactant/perm_014_aro_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "REFERENCE_full",
+      "label": "Full Shell",
+      "permutation": null,
+      "classes": "reference",
+      "qmAtoms": 746,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/REFERENCE_full/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_000_core_always_only",
+      "label": "5 Å shell + Water",
+      "permutation": "000",
+      "classes": "none",
+      "qmAtoms": 431,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_000_core_always_only/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_001_neg",
+      "label": "neg",
+      "permutation": "001",
+      "classes": "charged_neg",
+      "qmAtoms": 482,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_001_neg/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_002_pos",
+      "label": "pos",
+      "permutation": "002",
+      "classes": "charged_pos",
+      "qmAtoms": 483,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_002_pos/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_003_neg_pos",
+      "label": "neg + pos",
+      "permutation": "003",
+      "classes": "charged_neg, charged_pos",
+      "qmAtoms": 534,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_003_neg_pos/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_004_aro",
+      "label": "aro",
+      "permutation": "004",
+      "classes": "aromatic",
+      "qmAtoms": 467,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_004_aro/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_005_neg_aro",
+      "label": "neg + aro",
+      "permutation": "005",
+      "classes": "charged_neg, aromatic",
+      "qmAtoms": 518,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_005_neg_aro/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_006_pos_aro",
+      "label": "pos + aro",
+      "permutation": "006",
+      "classes": "charged_pos, aromatic",
+      "qmAtoms": 519,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_006_pos_aro/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_007_neg_pos_aro",
+      "label": "neg + pos + aro",
+      "permutation": "007",
+      "classes": "charged_neg, charged_pos, aromatic",
+      "qmAtoms": 570,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_007_neg_pos_aro/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_008_pol",
+      "label": "pol",
+      "permutation": "008",
+      "classes": "polar",
+      "qmAtoms": 509,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_008_pol/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_009_neg_pol",
+      "label": "neg + pol",
+      "permutation": "009",
+      "classes": "charged_neg, polar",
+      "qmAtoms": 560,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_009_neg_pol/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_010_pos_pol",
+      "label": "pos + pol",
+      "permutation": "010",
+      "classes": "charged_pos, polar",
+      "qmAtoms": 531,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_010_pos_pol/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_011_neg_pos_pol",
+      "label": "neg + pos + pol",
+      "permutation": "011",
+      "classes": "charged_neg, charged_pos, polar",
+      "qmAtoms": 582,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_011_neg_pos_pol/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_012_aro_pol",
+      "label": "aro + pol",
+      "permutation": "012",
+      "classes": "aromatic, polar",
+      "qmAtoms": 545,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_012_aro_pol/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_013_neg_aro_pol",
+      "label": "neg + aro + pol",
+      "permutation": "013",
+      "classes": "charged_neg, aromatic, polar",
+      "qmAtoms": 596,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_013_neg_aro_pol/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_014_pos_aro_pol",
+      "label": "pos + aro + pol",
+      "permutation": "014",
+      "classes": "charged_pos, aromatic, polar",
+      "qmAtoms": 567,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_014_pos_aro_pol/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_015_neg_pos_aro_pol",
+      "label": "neg + pos + aro + pol",
+      "permutation": "015",
+      "classes": "charged_neg, charged_pos, aromatic, polar",
+      "qmAtoms": 618,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_015_neg_pos_aro_pol/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_016_hyd",
+      "label": "hyd",
+      "permutation": "016",
+      "classes": "hydrophobic",
+      "qmAtoms": 550,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_016_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_017_neg_hyd",
+      "label": "neg + hyd",
+      "permutation": "017",
+      "classes": "charged_neg, hydrophobic",
+      "qmAtoms": 589,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_017_neg_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_018_pos_hyd",
+      "label": "pos + hyd",
+      "permutation": "018",
+      "classes": "charged_pos, hydrophobic",
+      "qmAtoms": 602,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_018_pos_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_019_neg_pos_hyd",
+      "label": "neg + pos + hyd",
+      "permutation": "019",
+      "classes": "charged_neg, charged_pos, hydrophobic",
+      "qmAtoms": 641,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_019_neg_pos_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_020_aro_hyd",
+      "label": "aro + hyd",
+      "permutation": "020",
+      "classes": "aromatic, hydrophobic",
+      "qmAtoms": 586,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_020_aro_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_021_neg_aro_hyd",
+      "label": "neg + aro + hyd",
+      "permutation": "021",
+      "classes": "charged_neg, aromatic, hydrophobic",
+      "qmAtoms": 625,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_021_neg_aro_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_022_pos_aro_hyd",
+      "label": "pos + aro + hyd",
+      "permutation": "022",
+      "classes": "charged_pos, aromatic, hydrophobic",
+      "qmAtoms": 638,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_022_pos_aro_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_023_neg_pos_aro_hyd",
+      "label": "neg + pos + aro + hyd",
+      "permutation": "023",
+      "classes": "charged_neg, charged_pos, aromatic, hydrophobic",
+      "qmAtoms": 677,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_023_neg_pos_aro_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_024_pol_hyd",
+      "label": "pol + hyd",
+      "permutation": "024",
+      "classes": "polar, hydrophobic",
+      "qmAtoms": 628,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_024_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_025_neg_pol_hyd",
+      "label": "neg + pol + hyd",
+      "permutation": "025",
+      "classes": "charged_neg, polar, hydrophobic",
+      "qmAtoms": 667,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_025_neg_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_026_pos_pol_hyd",
+      "label": "pos + pol + hyd",
+      "permutation": "026",
+      "classes": "charged_pos, polar, hydrophobic",
+      "qmAtoms": 650,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_026_pos_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_027_neg_pos_pol_hyd",
+      "label": "neg + pos + pol + hyd",
+      "permutation": "027",
+      "classes": "charged_neg, charged_pos, polar, hydrophobic",
+      "qmAtoms": 689,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_027_neg_pos_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_028_aro_pol_hyd",
+      "label": "aro + pol + hyd",
+      "permutation": "028",
+      "classes": "aromatic, polar, hydrophobic",
+      "qmAtoms": 664,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_028_aro_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_029_neg_aro_pol_hyd",
+      "label": "neg + aro + pol + hyd",
+      "permutation": "029",
+      "classes": "charged_neg, aromatic, polar, hydrophobic",
+      "qmAtoms": 703,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_029_neg_aro_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_030_pos_aro_pol_hyd",
+      "label": "pos + aro + pol + hyd",
+      "permutation": "030",
+      "classes": "charged_pos, aromatic, polar, hydrophobic",
+      "qmAtoms": 686,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_030_pos_aro_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_031_neg_pos_aro_pol_hyd",
+      "label": "neg + pos + aro + pol + hyd",
+      "permutation": "031",
+      "classes": "charged_neg, charged_pos, aromatic, polar, hydrophobic",
+      "qmAtoms": 725,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_031_neg_pos_aro_pol_hyd/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_032_sug",
+      "label": "sug",
+      "permutation": "032",
+      "classes": "sugar",
+      "qmAtoms": 452,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_032_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_033_neg_sug",
+      "label": "neg + sug",
+      "permutation": "033",
+      "classes": "charged_neg, sugar",
+      "qmAtoms": 503,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_033_neg_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_034_pos_sug",
+      "label": "pos + sug",
+      "permutation": "034",
+      "classes": "charged_pos, sugar",
+      "qmAtoms": 504,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_034_pos_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_035_neg_pos_sug",
+      "label": "neg + pos + sug",
+      "permutation": "035",
+      "classes": "charged_neg, charged_pos, sugar",
+      "qmAtoms": 555,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_035_neg_pos_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_036_aro_sug",
+      "label": "aro + sug",
+      "permutation": "036",
+      "classes": "aromatic, sugar",
+      "qmAtoms": 488,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_036_aro_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_037_neg_aro_sug",
+      "label": "neg + aro + sug",
+      "permutation": "037",
+      "classes": "charged_neg, aromatic, sugar",
+      "qmAtoms": 539,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_037_neg_aro_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_038_pos_aro_sug",
+      "label": "pos + aro + sug",
+      "permutation": "038",
+      "classes": "charged_pos, aromatic, sugar",
+      "qmAtoms": 540,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_038_pos_aro_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_039_neg_pos_aro_sug",
+      "label": "neg + pos + aro + sug",
+      "permutation": "039",
+      "classes": "charged_neg, charged_pos, aromatic, sugar",
+      "qmAtoms": 591,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_039_neg_pos_aro_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_040_pol_sug",
+      "label": "pol + sug",
+      "permutation": "040",
+      "classes": "polar, sugar",
+      "qmAtoms": 530,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_040_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_041_neg_pol_sug",
+      "label": "neg + pol + sug",
+      "permutation": "041",
+      "classes": "charged_neg, polar, sugar",
+      "qmAtoms": 581,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_041_neg_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_042_pos_pol_sug",
+      "label": "pos + pol + sug",
+      "permutation": "042",
+      "classes": "charged_pos, polar, sugar",
+      "qmAtoms": 552,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_042_pos_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_043_neg_pos_pol_sug",
+      "label": "neg + pos + pol + sug",
+      "permutation": "043",
+      "classes": "charged_neg, charged_pos, polar, sugar",
+      "qmAtoms": 603,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_043_neg_pos_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_044_aro_pol_sug",
+      "label": "aro + pol + sug",
+      "permutation": "044",
+      "classes": "aromatic, polar, sugar",
+      "qmAtoms": 566,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_044_aro_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_045_neg_aro_pol_sug",
+      "label": "neg + aro + pol + sug",
+      "permutation": "045",
+      "classes": "charged_neg, aromatic, polar, sugar",
+      "qmAtoms": 617,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_045_neg_aro_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_046_pos_aro_pol_sug",
+      "label": "pos + aro + pol + sug",
+      "permutation": "046",
+      "classes": "charged_pos, aromatic, polar, sugar",
+      "qmAtoms": 588,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_046_pos_aro_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_047_neg_pos_aro_pol_sug",
+      "label": "neg + pos + aro + pol + sug",
+      "permutation": "047",
+      "classes": "charged_neg, charged_pos, aromatic, polar, sugar",
+      "qmAtoms": 639,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_047_neg_pos_aro_pol_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_048_hyd_sug",
+      "label": "hyd + sug",
+      "permutation": "048",
+      "classes": "hydrophobic, sugar",
+      "qmAtoms": 571,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_048_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_049_neg_hyd_sug",
+      "label": "neg + hyd + sug",
+      "permutation": "049",
+      "classes": "charged_neg, hydrophobic, sugar",
+      "qmAtoms": 610,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_049_neg_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_050_pos_hyd_sug",
+      "label": "pos + hyd + sug",
+      "permutation": "050",
+      "classes": "charged_pos, hydrophobic, sugar",
+      "qmAtoms": 623,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_050_pos_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_051_neg_pos_hyd_sug",
+      "label": "neg + pos + hyd + sug",
+      "permutation": "051",
+      "classes": "charged_neg, charged_pos, hydrophobic, sugar",
+      "qmAtoms": 662,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_051_neg_pos_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_052_aro_hyd_sug",
+      "label": "aro + hyd + sug",
+      "permutation": "052",
+      "classes": "aromatic, hydrophobic, sugar",
+      "qmAtoms": 607,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_052_aro_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_053_neg_aro_hyd_sug",
+      "label": "neg + aro + hyd + sug",
+      "permutation": "053",
+      "classes": "charged_neg, aromatic, hydrophobic, sugar",
+      "qmAtoms": 646,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_053_neg_aro_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_054_pos_aro_hyd_sug",
+      "label": "pos + aro + hyd + sug",
+      "permutation": "054",
+      "classes": "charged_pos, aromatic, hydrophobic, sugar",
+      "qmAtoms": 659,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_054_pos_aro_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_055_neg_pos_aro_hyd_sug",
+      "label": "neg + pos + aro + hyd + sug",
+      "permutation": "055",
+      "classes": "charged_neg, charged_pos, aromatic, hydrophobic, sugar",
+      "qmAtoms": 698,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_055_neg_pos_aro_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_056_pol_hyd_sug",
+      "label": "pol + hyd + sug",
+      "permutation": "056",
+      "classes": "polar, hydrophobic, sugar",
+      "qmAtoms": 649,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_056_pol_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_057_neg_pol_hyd_sug",
+      "label": "neg + pol + hyd + sug",
+      "permutation": "057",
+      "classes": "charged_neg, polar, hydrophobic, sugar",
+      "qmAtoms": 688,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_057_neg_pol_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_058_pos_pol_hyd_sug",
+      "label": "pos + pol + hyd + sug",
+      "permutation": "058",
+      "classes": "charged_pos, polar, hydrophobic, sugar",
+      "qmAtoms": 671,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_058_pos_pol_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_059_neg_pos_pol_hyd_sug",
+      "label": "neg + pos + pol + hyd + sug",
+      "permutation": "059",
+      "classes": "charged_neg, charged_pos, polar, hydrophobic, sugar",
+      "qmAtoms": 710,
+      "charge": "+1",
+      "path": "data/structures/r7.5/reactant/perm_059_neg_pos_pol_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_060_aro_pol_hyd_sug",
+      "label": "aro + pol + hyd + sug",
+      "permutation": "060",
+      "classes": "aromatic, polar, hydrophobic, sugar",
+      "qmAtoms": 685,
+      "charge": "+2",
+      "path": "data/structures/r7.5/reactant/perm_060_aro_pol_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_061_neg_aro_pol_hyd_sug",
+      "label": "neg + aro + pol + hyd + sug",
+      "permutation": "061",
+      "classes": "charged_neg, aromatic, polar, hydrophobic, sugar",
+      "qmAtoms": 724,
+      "charge": "+0",
+      "path": "data/structures/r7.5/reactant/perm_061_neg_aro_pol_hyd_sug/subset.pdb"
+    },
+    {
+      "radius": "r7.5",
+      "dir": "perm_062_pos_aro_pol_hyd_sug",
+      "label": "pos + aro + pol + hyd + sug",
+      "permutation": "062",
+      "classes": "charged_pos, aromatic, polar, hydrophobic, sugar",
+      "qmAtoms": 707,
+      "charge": "+3",
+      "path": "data/structures/r7.5/reactant/perm_062_pos_aro_pol_hyd_sug/subset.pdb"
+    }
+  ]
+}
